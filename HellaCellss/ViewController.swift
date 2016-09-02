@@ -39,7 +39,6 @@ class TableViewController: UITableViewController {
         return myArray.count
     }
     
-    //telling the cell how to be
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
         
@@ -50,6 +49,25 @@ class TableViewController: UITableViewController {
         return cell
     }
     
-
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        let destination = segue.destinationViewController as! ViewController  //destination is an instance of the viewcontroller class. So now we can use properties of our destination viewcontroller to set properties (for vc class) that will be used in our next view controller.
+        
+        let senderCell = sender as! UITableViewCell
+        
+        //        var indexPath = tableView.indexPathForSelectedRow   didn't need this line why?
+        
+        let whatIsYourText = senderCell.textLabel?.text
+        
+        var unwrappedText = ""
+        
+        if let whatIsYourText = senderCell.textLabel?.text {
+            print("not nill")
+            unwrappedText = whatIsYourText
+            print(whatIsYourText)
+        }
+        
+        
+        
+    }
 }
-
