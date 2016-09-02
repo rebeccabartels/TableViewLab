@@ -9,45 +9,47 @@
 import UIKit
 
 class TableViewController: UITableViewController {
+    var myArray: [Int] = []
     
-    var myArray = [Int]()
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        for number in 1...100 {
-            myArray.append(number)
-            print(myArray)
+        
+        for numberInt in 1...100{
+            
+            myArray.append(numberInt)
         }
-        // Do any additional setup after loading the view, typically from a nib.
+        print(myArray)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
+    
+    
+    
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
+        // you must have one in order to show things in your tableView.
         return 1
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return myArray.count
     }
     
+    //telling the cell how to be
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
         
-                let number = myArray[indexPath.row]
+        let currentNumber = myArray[indexPath.row]
         
-                cell.textLabel?.text = String("")
+        cell.textLabel?.text = String(currentNumber)
         
         return cell
-        
-        
     }
+    
 
 }
 
