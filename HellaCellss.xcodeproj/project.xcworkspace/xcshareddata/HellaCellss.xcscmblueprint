@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F502B3C2304249B07C74518E7B9D1EDF4EA47039",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F502B3C2304249B07C74518E7B9D1EDF4EA47039" : 0,
+    "0949A46202CE027D83497BCEF4C0C6F5655458E6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B377E772-27C3-4054-AC89-191479537243",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F502B3C2304249B07C74518E7B9D1EDF4EA47039" : "HellaCellss\/",
+    "0949A46202CE027D83497BCEF4C0C6F5655458E6" : "..\/SwiftLabs\/TableViewsCells\/myriadOfCells"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HellaCellss",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HellaCellss.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rebeccabartels\/myriadOfCells",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0949A46202CE027D83497BCEF4C0C6F5655458E6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rebeccabartels\/TableViewLab",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F502B3C2304249B07C74518E7B9D1EDF4EA47039"
+    }
+  ]
+}
