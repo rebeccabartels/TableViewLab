@@ -5,12 +5,14 @@
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "F502B3C2304249B07C74518E7B9D1EDF4EA47039" : 0,
-    "0949A46202CE027D83497BCEF4C0C6F5655458E6" : 0
+    "0949A46202CE027D83497BCEF4C0C6F5655458E6" : 0,
+    "6FAA54788D3B12A700DBFC6494FD3C3EA9B5D4B7" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B377E772-27C3-4054-AC89-191479537243",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "F502B3C2304249B07C74518E7B9D1EDF4EA47039" : "HellaCellss\/",
-    "0949A46202CE027D83497BCEF4C0C6F5655458E6" : "..\/SwiftLabs\/TableViewsCells\/myriadOfCells"
+    "0949A46202CE027D83497BCEF4C0C6F5655458E6" : "..\/SwiftLabs\/TableViewsCells\/myriadOfCells",
+    "6FAA54788D3B12A700DBFC6494FD3C3EA9B5D4B7" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "HellaCellss",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -20,6 +22,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rebeccabartels\/myriadOfCells",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0949A46202CE027D83497BCEF4C0C6F5655458E6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rebeccabartels\/pinkin-fruit",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6FAA54788D3B12A700DBFC6494FD3C3EA9B5D4B7"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rebeccabartels\/TableViewLab",
